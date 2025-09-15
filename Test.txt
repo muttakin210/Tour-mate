@@ -1,0 +1,10 @@
+test: Adding Tests
+Description: Writing and adding tests to ensure the functionality works as expected and to prevent regressions.
+•   Test Form Validations:
+     o	Test: Ensure that form fields like email, password, and trip details have the correct validation (e.g., valid email format, minimum password length).
+•   Test Join Trip Logic:
+     o	Test: Add tests to ensure the "Join Trip" button works as expected and does not allow users to join a trip if no slots are available.
+•   Test Password Change:
+     o	Test: Validate the password change functionality, ensuring that the current password matches and that the new passwords meet the required criteria.
+•   Test Report Post:
+     o	Test: Ensure that reports are submitted correctly and that all required fields (title, reason) are validated.
