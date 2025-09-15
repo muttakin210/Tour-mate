@@ -1,0 +1,8 @@
+refactor: Code Refactoring
+Description: Restructure the existing code to improve readability, efficiency, or maintainability without changing functionality.
+•	Refactor Form Components:
+	Change: Break down large form components (e.g., Signup, Forgot Password) into smaller, reusable components to improve code maintainability and scalability.
+•	Refactor Validation Logic:
+	Change: Consolidate validation logic into reusable functions or classes to avoid redundancy and improve code quality.
+•	Refactor Navigation Logic:
+	Change: Streamline the navigation logic to handle transitions between pages (e.g., after successful signup or login) more efficiently

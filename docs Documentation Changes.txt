@@ -1,0 +1,8 @@
+docs: Documentation Changes
+Description: Updates to documentation, including user stories, UI descriptions, and acceptance criteria.
+•	UI/UX Guidelines:
+	Documentation: Provides detailed UI element descriptions for each screen, including the expected inputs, buttons, and error messages for fields like email, password, etc.
+•	Acceptance Criteria:
+	Documentation: Detailed acceptance criteria for each feature, outlining the expected behaviors (e.g., error messages, redirects).
+•	User Stories:
+	Documentation: User stories for features like "Signup," "Login," "Create Post," and "View Profile" describe the functional requirements and user expectations.
