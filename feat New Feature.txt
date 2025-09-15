@@ -1,0 +1,32 @@
+feat: New Feature
+Description: Introduction of major new functionality or features to the application.
+•	Signup (User Registration):
+o	Description: Allows users to register with email, password, and other required information.
+o	Details: Adds fields for email, password, and re-password with validations, and includes a user type selector. On success, the user is redirected to the dashboard.
+•	Login:
+	Description: Enables users to log in with email and password and includes "Remember Me" functionality.
+	Details: Login form checks for valid email and password, and redirects the user to the dashboard upon successful login.
+•	Forgot Password:
+	Description: Allows users to reset their password if forgotten by entering their email and receiving a verification code.
+	Details: Sends a code to the user's email for validation, then allows resetting the password with new criteria (at least 8 characters, one special character).
+•	Create Post (Trip Recruitment):
+	Description: Users can create a post to recruit members for a tour group.
+	Details: Includes multiple fields like trip title, travel mode, destination, group size, budget, and an image upload. Includes validation for each field and redirects the user to the trip page after post creation.
+•	View Post:
+	Description: Displays posts with an option to join the trip, navigate through previous and next posts, or report inappropriate content.
+	Details: Includes "Join Trip" functionality, with validation for available slots. Also includes options to navigate to the next or previous post and refresh the post.
+•	Report Post:
+	Description: Allows users and admins to report posts based on specific reasons.
+	Details: Form includes input fields for title, reason selection (e.g., spam, fake info), and an optional evidence upload.
+•	View Profile:
+	Description: Users can view their profile information.
+	Details: Displays user information in a table format, with the ability to edit profile or change the photo.
+•	Edit Profile:
+	Description: Users can edit their personal information such as name, email, phone, and gender.
+	Details: Validation for correct format on email, phone number, and date of birth is included.
+•	Change Profile Photo:
+	Description: Users can upload and change their profile picture.
+	Details: Includes file upload for images in specific formats (.jpg, .png), with appropriate validation.
+•	Change Password:
+	Description: Users can change their password after verifying the current password.
+	Details: Password validation includes checks for length and matching re-password.

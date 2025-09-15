@@ -1,0 +1,17 @@
+fix: Bug Fix
+Description: Addresses bugs or issues that have been identified in the application.
+•	Signup (Email Validation):
+	Bug: Email should only accept valid, unregistered email addresses.
+	Fix: If the email is already registered, an error message should be shown: "Email already used."
+•	Login (Email & Password Validation):
+	Bug: Login fails even with valid credentials.
+	Fix: Ensure that the email and password entered match those stored in the database.
+•	Forgot Password (Email Validation):
+	Bug: Password reset fails when email doesn’t exist in the database.
+	Fix: Display an error message if the email entered is not found in the database: "No email found."
+•	Create Post (Validation):
+	Bug: Some fields allow invalid data.
+	Fix: Implement validations to ensure that fields like "Group Size," "Budget," and "Trail Rating" follow correct formats (positive numbers, numeric values).
+•	Join Trip (Slot Availability):
+	Bug: Users are allowed to join trips even when there are no available slots.
+	Fix: Add a check to ensure users can only join if the slot is available.
