@@ -1,0 +1,6 @@
+. style: Formatting, Missing Semi-colons, etc.
+Description: Minor adjustments, including code formatting and styling issues.
+•	General Code Formatting:
+o	Fix: Ensure consistent indentation, spacing, and alignment across the codebase to improve readability.
+•	UI Style Adjustments:
+o	Fix: Correct minor UI/UX issues, such as inconsistent button placements or spacing between input fields.
